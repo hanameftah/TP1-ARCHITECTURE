@@ -1,4 +1,4 @@
-package videoShowSolution;
+package package1;
 
 import java.awt.BasicStroke;
 import java.awt.Color;
