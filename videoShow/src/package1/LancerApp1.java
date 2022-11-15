@@ -1,5 +1,6 @@
 package package1;
 import java.awt.Color;
+import java.awt.Frame;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -41,7 +42,12 @@ public class LancerApp1 {
 		
 		Visage v = new Visage(d);
 		d.ajouterObjet(v);
-	
+		
+		Frame f1=new Etoile(350 , 100 ,50, 8.f , Color.RED, Color.YELLOW);
+		Forme f2=new PolygoneRegulier(5 , 240 ,40, 40, 4.0f , Color.DARK_GRAY, null);
+		d.ajouterObjet(f1);
+		d.ajoutefObjet(f2);
+		
 		while(true) {
 		// la zone de dessin se réaffiche
 		d.repaint();
