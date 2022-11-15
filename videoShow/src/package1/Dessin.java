@@ -84,7 +84,7 @@ public class Dessin extends JPanel{
         for (IObjetDessinable c : objDessin) {
         	
         	if(c instanceof IObjetAnimable) {
-        	((IObjetAnimable)  c).deplacer();
+            	((IObjetAnimable)  c).deplacer();
             
         }
     }
